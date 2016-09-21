@@ -1,6 +1,0 @@
-C:\Sebastian\Pers\Prog\RequireJs\Web\bin\Web.dll.config
-C:\Sebastian\Pers\Prog\RequireJs\Web\bin\Web.dll
-C:\Sebastian\Pers\Prog\RequireJs\Web\bin\Web.pdb
-C:\Sebastian\Pers\Prog\RequireJs\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
-C:\Sebastian\Pers\Prog\RequireJs\Web\obj\Debug\Web.dll
-C:\Sebastian\Pers\Prog\RequireJs\Web\obj\Debug\Web.pdb
