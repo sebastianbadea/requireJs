@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>first page</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <!--<script src="Scripts/jquery-3.1.0.js"></script>-->
+    <!--with data-main the main file is loaded by requireJs after itself is loaded-->
+    <script src="Scripts/require.js" data-main="Scripts/jsTest1.js"></script>
+</head>
+<body style="padding-left:50px">
+    <header>
+        <h1>Task list</h1>
+    </header>
+
+    <div class="row">
+        <button id="newTaskButton" class="btn-success">New task</button>
+        <button id="deleteAllTasksButton" class="btn-danger">Delete all</button>
+    </div>
+
+    <div id="content">
+        <ul id="taskList" class="list-unstyled" />
+
+        <ul id="logList" />
+    </div>
+
+    <div class="row">
+        <button id="saveButton" class="btn-primary">Save</button>
+    </div>
+</body>
+</html>
