@@ -29,7 +29,7 @@ define("taskData", [], function () {
         load: loadTaskData,
         clear: clearTaskData
     };
-});
+}); 
 //loading the modules as dependencies of current js file and the rest is put as callback function
 //the module dependencies are specified as an array and the number of items from array must be the same as the parameter number of callback function
 require(["jquery", "taskData"], function ($, taskData) {
