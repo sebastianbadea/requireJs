@@ -1,5 +1,5 @@
-﻿define(["jquery"], function ($) {
-    var taskTemplate = '<li class="task"><input class="complete" type="checkbox" /><input type="text" class="description" /><button class="btn-danger deleteTask">Delete</button></li>';
+﻿//here the 'text' plugin is used to load the taskTemplate.html file from 'templates' path (=../templates folder)
+define(["jquery", "text!templates/taskTemplate.html"], function ($, taskTemplate) {
     _renderTask = function (task) {
         var $task = $(taskTemplate);
 

@@ -1,9 +1,13 @@
 ﻿/// <reference path="jquery-3.1.0.js" />
 /// <reference path="require.js" />
-//configuring modules; not necessary related to this js file?
+//configuring modules; it must be included at the top of the main js file(the one loaded from html with require)
+
 require.config({
+    //'paths' is used for simplify the names of files or folders; also allows to navigate up to another folder with ../..
     paths: {
-        jquery: "jquery-3.1.0"
+        jquery: "jquery-3.1.0",
+        //specifying the the templates folder from above
+        templates: "../templates"
     }
 });
 //-----------------------------------------------------------------------------------------------------

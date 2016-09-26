@@ -82,6 +82,7 @@
     <None Include="Scripts\jquery-3.1.0.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jsTest1-optimized.min.js" />
     <Content Include="Scripts\taskData\data.js" />
     <Content Include="Scripts\jquery-3.1.0.js" />
     <Content Include="Scripts\jquery-3.1.0.min.js" />
@@ -92,6 +93,8 @@
     <Content Include="Scripts\require.js" />
     <Content Include="Scripts\taskRenderers\render.js" />
     <Content Include="Scripts\tasksOperations\tasks.js" />
+    <Content Include="Scripts\text.js" />
+    <Content Include="templates\taskTemplate.html" />
     <Content Include="test1.html" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-3.1.0.slim.min.map" />
