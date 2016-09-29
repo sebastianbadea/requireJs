@@ -1,0 +1,8 @@
+node Scripts\r.js -o name=jsTest1 baseUrl=Scripts mainConfigFile=Scripts\jsTest1.js out=Scripts\jsTest1-optimized.min.js
+--installing gulp globally
+npm install gulp -g
+--install gulp locally
+cd workingspace
+npm install --save-dev gulp
+--installing jscs
+npm install jscs

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{07B8060D-D87E-4CF5-906F-62BD497922B6}"
 	ProjectSection(SolutionItems) = preProject
-		nodeCommands.txt = nodeCommands.txt
+		commands.txt = commands.txt
 	EndProjectSection
 EndProject
 Global

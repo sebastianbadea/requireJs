@@ -57,6 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="gulp.config.js" />
+    <Content Include="Scripts\handmade\test.min.js.map">
+      <DependentUpon>test.min.js</DependentUpon>
+    </Content>
+    <Content Include=".jshintrc" />
+    <Content Include="package.json" />
+    <Content Include=".jscsrc" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -82,6 +89,7 @@
     <None Include="Scripts\jquery-3.1.0.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="gulpfile.js" />
     <Content Include="Scripts\jsTest1-optimized.min.js" />
     <Content Include="Scripts\taskData\data.js" />
     <Content Include="Scripts\jquery-3.1.0.js" />
@@ -93,6 +101,10 @@
     <Content Include="Scripts\require.js" />
     <Content Include="Scripts\taskRenderers\render.js" />
     <Content Include="Scripts\tasksOperations\tasks.js" />
+    <Content Include="Scripts\handmade\test.js" />
+    <Content Include="Scripts\handmade\test.min.js">
+      <DependentUpon>test.js</DependentUpon>
+    </Content>
     <Content Include="Scripts\text.js" />
     <Content Include="templates\taskTemplate.html" />
     <Content Include="test1.html" />
@@ -103,7 +115,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Scripts\libraries\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
