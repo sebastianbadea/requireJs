@@ -6,3 +6,5 @@ cd workingspace
 npm install --save-dev gulp
 --installing jscs
 npm install jscs
+------running browser-sync from command prompt------
+browser-sync start --proxy localhost:14456 --files "./*.html, Scripts/**/*.js"
